@@ -6,7 +6,9 @@ import {
     DiMysql,
     DiReact,
     DiMongodb,
-    DiSass 
+    DiSass,
+    DiPhp,
+    DiLaravel 
   } from "react-icons/di";
 
 
@@ -21,7 +23,10 @@ const technologies = [
     { id: "mysql", name: "MySQL", icon: <DiMysql />, description: "Banco de dados relacional para armazenamento de dados estruturados." },
     { id: "react", name: "React", icon: <DiReact />, description: "Biblioteca para construir interfaces de usuário reutilizáveis." },
     { id: "mongodb", name: "MongoDB", icon: <DiMongodb/>, description: "Banco de dados NoSQL para dados flexíveis e escaláveis." },
-    { id: "sass", name:"Sass", icon: <DiSass/>, description: "Pré-processador CSS com variáveis e mixins para código mais modular."}
+    { id: "sass", name:"Sass", icon: <DiSass/>, description: "Pré-processador CSS com variáveis e mixins para código mais modular."},
+    {id: "php", name: "Php", icon: <DiPhp/>, description: "PHP é uma linguagem de programação para desenvolvimento web."},
+    {id: "laravel", name: "Laravel", icon: <DiLaravel/>, description: "Laravel é um framework PHP para desenvolvimento web"}
+
 
     
   ];

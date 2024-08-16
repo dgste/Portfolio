@@ -2,7 +2,7 @@ import Avatar from '../img/WhatsApp Image 2024-08-15 at 14.39.09.jpeg';
 
 import '../styles/components/sidebar.sass';
 import InformationContainer from './InformationContainer';
-import SocialNetwork from './socialnetwork';
+import SocialNetwork from './SocialNetwork'
 
 function Sidebar() {
   
